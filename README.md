@@ -196,6 +196,25 @@ uv run pytest --cov=app --cov-report=html
 
 ## 🔧 Development
 
+### Using Makefile (Optional)
+
+The project includes a Makefile for common development tasks:
+
+```powershell
+make help          # Show all available commands
+make install       # Install production dependencies
+make dev-install   # Install development dependencies
+make run           # Run the Flask application
+make test          # Run tests
+make coverage      # Run tests with coverage report
+make clean         # Remove build artifacts and cache files
+make seed          # Seed the database with sample data
+make format        # Format code with Black
+make lint          # Lint code with Ruff
+```
+
+**Note:** On Windows, you may need to install `make` via Chocolatey (`choco install make`) or use the direct uv commands below.
+
 ### Code Formatting
 
 ```powershell
