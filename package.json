@@ -1,0 +1,14 @@
+{
+  "name": "flask-task-manager-api",
+  "version": "0.1.0",
+  "description": "Flask REST API with task management and SQLite",
+  "main": "app/main.py",
+  "scripts": {
+    "start": "python -m app.main",
+    "test": "pytest",
+    "seed": "python init_db.py seed"
+  },
+  "keywords": ["flask", "api", "rest", "sqlite", "task-manager", "uv"],
+  "author": "",
+  "license": "MIT"
+}
